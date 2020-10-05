@@ -1,0 +1,1 @@
+{"generatedAt":"2015-04-22 22:35","generatedBy":"Environmental Protection Agency","aqihsummary":[{"aqih-region":"Rural_East","aqih":"4,Fair"},{"aqih-region":"Cork_City","aqih":"2,Good"},{"aqih-region":"Rural_West","aqih":"4,Fair"},{"aqih-region":"Large_Towns","aqih":"2,Good"},{"aqih-region":"Small_Towns","aqih":"2,Good"},{"aqih-region":"Dublin_City","aqih":"2,Good"}]}
