@@ -1,0 +1,3802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2LogicalModel modelBaseVersion="1.0"
+                xmlns="http://datex2.eu/schema/1_0/1_0"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://datex2.eu/schema/1_0/1_0 http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
+ <exchange>
+  <supplierIdentification>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </supplierIdentification>
+ </exchange>
+ <payloadPublication xsi:type="MeasurementSiteTablePublication" lang="eng">
+  <publicationTime>2016-03-16T14:05:03+00:00</publicationTime>
+  <publicationCreator>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </publicationCreator>
+  <headerInformation>
+   <confidentiality>noRestriction</confidentiality>
+   <informationStatus>real</informationStatus>
+  </headerInformation>
+  <measurementSiteTable id="WeatherSites">
+   <measurementSiteTableReference>WeatherSites</measurementSiteTableReference>
+   <measurementSiteTableVersion>2</measurementSiteTableVersion>
+ 
+   <measurementSiteRecord id="NRA10810">
+    <measurementEquipmentReference>10810</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N11 Glen of the Downs</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.14007</latitude>
+        <longitude>-6.1234</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N11</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N11 Glen of the Downs</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA11139">
+    <measurementEquipmentReference>11139</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M18 Cloneen</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.944388</latitude>
+        <longitude>-8.904846</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M18</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M18 Cloneen</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA11427">
+    <measurementEquipmentReference>11427</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M1 Braganstown</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.891108</latitude>
+        <longitude>-6.426121</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M1</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M1 Braganstown</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA11428">
+    <measurementEquipmentReference>11428</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M2 Ashbourne</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.502663</latitude>
+        <longitude>-6.418426</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M2</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M2 Ashbourne</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA11429">
+    <measurementEquipmentReference>11429</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M4 Maynooth</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.374716</latitude>
+        <longitude>-6.626116</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M4</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M4 Maynooth</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA11434">
+    <measurementEquipmentReference>11434</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M8 Cahir</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.355074</latitude>
+        <longitude>-8.000905</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M8</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M8 Cahir</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1681">
+    <measurementEquipmentReference>1681</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N2 Reaghstown</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.929717</latitude>
+        <longitude>-6.648062</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N2</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N2 Reaghstown</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1682">
+    <measurementEquipmentReference>1682</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">Old N2 Annayella</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.188936</latitude>
+        <longitude>-6.82273</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N2</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">Old N2 Annayella</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1683">
+    <measurementEquipmentReference>1683</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N2 Emyvale</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.341171</latitude>
+        <longitude>-6.964454</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N2</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N2 Emyvale</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1684">
+    <measurementEquipmentReference>1684</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N3 Butler&apos;s Bridge</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.043966</latitude>
+        <longitude>-7.380977</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N3</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N3 Butler&apos;s Bridge</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1685">
+    <measurementEquipmentReference>1685</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N16 Manorhamilton</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.327126</latitude>
+        <longitude>-8.355788</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N16</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N16 Manorhamilton</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1686">
+    <measurementEquipmentReference>1686</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N15 Bundoran</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.467335</latitude>
+        <longitude>-8.332326</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N15</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N15 Bundoran</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1687">
+    <measurementEquipmentReference>1687</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N15 Lough Mourne</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.754316</latitude>
+        <longitude>-7.907563</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N15</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N15 Lough Mourne</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1688">
+    <measurementEquipmentReference>1688</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N15 Kilygordon</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.797938</latitude>
+        <longitude>-7.677354</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N15</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N15 Kilygordon</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1689">
+    <measurementEquipmentReference>1689</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N13 Grianan Of Aileach</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>55.043042</latitude>
+        <longitude>-7.406329</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N13</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N13 Grianan Of Aileach</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1727">
+    <measurementEquipmentReference>1727</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M1 Dublin Airport</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.418811</latitude>
+        <longitude>-6.230416</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M1</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M1 Dublin Airport</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1728">
+    <measurementEquipmentReference>1728</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M11 Bray Bypass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.215079</latitude>
+        <longitude>-6.129539</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M11</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M11 Bray Bypass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1729">
+    <measurementEquipmentReference>1729</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M7 Newbridge Bypass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.17388</latitude>
+        <longitude>-6.745563</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M7</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M7 Newbridge Bypass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1730">
+    <measurementEquipmentReference>1730</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M7 Portlaoise Bypass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.017323</latitude>
+        <longitude>-7.279555</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M7</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M7 Portlaoise Bypass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1732">
+    <measurementEquipmentReference>1732</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N8 Mitchelstown</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.223015</latitude>
+        <longitude>-8.277293</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N8</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N8 Mitchelstown</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1733">
+    <measurementEquipmentReference>1733</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N25 Midleton Bypass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>51.906114</latitude>
+        <longitude>-8.270559</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N25</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N25 Midleton Bypass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1734">
+    <measurementEquipmentReference>1734</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N22 Killarney</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.016114</latitude>
+        <longitude>-9.372223</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N22</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N22 Killarney</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1735">
+    <measurementEquipmentReference>1735</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N22 Macroom</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>51.861387</latitude>
+        <longitude>-8.79722</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N22</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N22 Macroom</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1736">
+    <measurementEquipmentReference>1736</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N25 Dungarvan</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.072495</latitude>
+        <longitude>-7.640566</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N25</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N25 Dungarvan</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1737">
+    <measurementEquipmentReference>1737</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N11 Enniscorthy</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.520167</latitude>
+        <longitude>-6.564366</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N11</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N11 Enniscorthy</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1738">
+    <measurementEquipmentReference>1738</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N3 Kells</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.687094</latitude>
+        <longitude>-6.773206</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N3</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N3 Kells</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1739">
+    <measurementEquipmentReference>1739</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N3 Cavan</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.89437</latitude>
+        <longitude>-7.15807</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N3</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N3 Cavan</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1741">
+    <measurementEquipmentReference>1741</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N4 Collooney Bypass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.168589</latitude>
+        <longitude>-8.478447</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N4</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N4 Collooney Bypass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1742">
+    <measurementEquipmentReference>1742</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N4 Longford</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.740803</latitude>
+        <longitude>-7.784024</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N4</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N4 Longford</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1743">
+    <measurementEquipmentReference>1743</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N6 Kilbeggan</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.369795</latitude>
+        <longitude>-7.503474</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N6</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N6 Kilbeggan</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1744">
+    <measurementEquipmentReference>1744</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N4 Ballinalack</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.624927</latitude>
+        <longitude>-7.494437</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N4</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N4 Ballinalack</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1745">
+    <measurementEquipmentReference>1745</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N22 Ballyvourney</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>51.956659</latitude>
+        <longitude>-9.190563</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N22</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N22 Ballyvourney</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1746">
+    <measurementEquipmentReference>1746</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N21 Abbeyfeale</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.381495</latitude>
+        <longitude>-9.304817</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N21</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N21 Abbeyfeale</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1747">
+    <measurementEquipmentReference>1747</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N21 Rathkeale Bypass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.528047</latitude>
+        <longitude>-8.91426</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N21</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N21 Rathkeale Bypass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1748">
+    <measurementEquipmentReference>1748</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N25 Wexford</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.289724</latitude>
+        <longitude>-6.463375</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N25</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N25 Wexford</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1749">
+    <measurementEquipmentReference>1749</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N10 Kilkenny</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.620028</latitude>
+        <longitude>-7.260997</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N10</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N10 Kilkenny</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1750">
+    <measurementEquipmentReference>1750</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M50 Sandyford</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.267323</latitude>
+        <longitude>-6.256165</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M50</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M50 Sandyford</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1751">
+    <measurementEquipmentReference>1751</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">R113 Sandyford</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.268155</latitude>
+        <longitude>-6.251635</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">R113</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">R113 Sandyford</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1752">
+    <measurementEquipmentReference>1752</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N81 Tallaght</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.267221</latitude>
+        <longitude>-6.443529</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N81</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N81 Tallaght</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1753">
+    <measurementEquipmentReference>1753</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M50 Blanchardstown</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.370629</latitude>
+        <longitude>-6.381163</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M50</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M50 Blanchardstown</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1755">
+    <measurementEquipmentReference>1755</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N6 Athlone ByPass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.425635</latitude>
+        <longitude>-7.979678</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N6</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N6 Athlone ByPass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1756">
+    <measurementEquipmentReference>1756</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N61 Elphin</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.851288</latitude>
+        <longitude>-8.228665</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N61</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N61 Elphin</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1758">
+    <measurementEquipmentReference>1758</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N11 Arklow Bypass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.828698</latitude>
+        <longitude>-6.132831</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N11</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N11 Arklow Bypass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1760">
+    <measurementEquipmentReference>1760</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N6 Loughrea</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.270418</latitude>
+        <longitude>-8.40242</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N6</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N6 Loughrea</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1762">
+    <measurementEquipmentReference>1762</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N24 Clonmel Relief Rd</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.365887</latitude>
+        <longitude>-7.717402</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N24</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N24 Clonmel Relief Rd</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1763">
+    <measurementEquipmentReference>1763</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N24 Pallas Grean</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.572395</latitude>
+        <longitude>-8.350284</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N24</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N24 Pallas Grean</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1764">
+    <measurementEquipmentReference>1764</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">R445 Ballywilliam</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.823241</latitude>
+        <longitude>-8.300377</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N7</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">R445 Ballywilliam</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1766">
+    <measurementEquipmentReference>1766</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N4 Enfield</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.41817</latitude>
+        <longitude>-6.836614</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N4</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N4 Enfield</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1767">
+    <measurementEquipmentReference>1767</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N7 Roscrea</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.921522</latitude>
+        <longitude>-7.899635</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N7</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N7 Roscrea</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1769">
+    <measurementEquipmentReference>1769</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N20 Charleville</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.286076</latitude>
+        <longitude>-8.682134</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N20</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N20 Charleville</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1770">
+    <measurementEquipmentReference>1770</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N72 Fermoy</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.146109</latitude>
+        <longitude>-8.421944</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N72</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N72 Fermoy</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1771">
+    <measurementEquipmentReference>1771</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N81 Baltinglass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.019885</latitude>
+        <longitude>-6.646182</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N81</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N81 Baltinglass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1773">
+    <measurementEquipmentReference>1773</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N59 Ballina</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.112257</latitude>
+        <longitude>-9.295855</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N59</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N59 Ballina</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1774">
+    <measurementEquipmentReference>1774</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N17 Tuam</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.578918</latitude>
+        <longitude>-8.855241</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N17</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N17 Tuam</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1775">
+    <measurementEquipmentReference>1775</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N56 Gweedore</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>55.045261</latitude>
+        <longitude>-8.177524</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N25</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N56 Gweedore</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA1919">
+    <measurementEquipmentReference>1919</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M1 Drogheda Bypass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.7211</latitude>
+        <longitude>-6.397225</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M1</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M1 Drogheda Bypass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA2151">
+    <measurementEquipmentReference>2151</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N59 Connemara</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.455652</latitude>
+        <longitude>-9.536754</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N59</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N59 Connemara</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA2284">
+    <measurementEquipmentReference>2284</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M50 Dublin Airport</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.40917</latitude>
+        <longitude>-6.228064</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M50</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M50 Dublin Airport</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA2830">
+    <measurementEquipmentReference>2830</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M8 Corrin Interchange</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.115831</latitude>
+        <longitude>-8.272628</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M8</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M8 Corrin Interchange</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA2831">
+    <measurementEquipmentReference>2831</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M8 Toll Plaza</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.027465</latitude>
+        <longitude>-8.328066</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M8</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M8 Toll Plaza</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA3535">
+    <measurementEquipmentReference>3535</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M8 Mitchelstown NE</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.273574</latitude>
+        <longitude>-8.240295</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M8</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M8 Mitchelstown NE</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA3545">
+    <measurementEquipmentReference>3545</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N8 Two Mile Borris</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.670466</latitude>
+        <longitude>-7.69464</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N8</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N8 Two Mile Borris</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA3735">
+    <measurementEquipmentReference>3735</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N25 Waterford Bypass</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.276241</latitude>
+        <longitude>-7.154228</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N25</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N25 Waterford Bypass</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA3799">
+    <measurementEquipmentReference>3799</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M1 Dromad</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>54.089527</latitude>
+        <longitude>-6.358369</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M1</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M1 Dromad</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA3800">
+    <measurementEquipmentReference>3800</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M7 Nenagh</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.848282</latitude>
+        <longitude>-8.170129</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M7</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M7 Nenagh</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA3889">
+    <measurementEquipmentReference>3889</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M6 Glennascaul</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.295299</latitude>
+        <longitude>-8.9255</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M6</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M6 Glennascaul</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA3890">
+    <measurementEquipmentReference>3890</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M6 West Ballinasloe</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.315382</latitude>
+        <longitude>-8.245811</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M6</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M6 West Ballinasloe</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA4203">
+    <measurementEquipmentReference>4203</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">Limerick Tunnel South</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.650465</latitude>
+        <longitude>-8.679601</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N7</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">Limerick Tunnel South</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA4207">
+    <measurementEquipmentReference>4207</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">Clonmacken Link Road</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.664047</latitude>
+        <longitude>-8.674269</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N7</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">Clonmacken Link Road</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA4417">
+    <measurementEquipmentReference>4417</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M7 Mountrath</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>52.998666</latitude>
+        <longitude>-7.396904</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">M7</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">M7 Mountrath</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocatio
